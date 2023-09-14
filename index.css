@@ -1,0 +1,45 @@
+#container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#tabellone {
+    width: 700px;
+    height: 300px;
+    border: 6px solid blue;
+}
+
+#estratto {
+    width: 200px;
+    height: 100px;
+    border: 1px solid blue;
+}
+
+.case {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    float: left;
+}
+
+.numEsatto {
+    color: green;
+}
+
+.genera{
+    color: blue;
+    padding: 20px;
+}
+
+.case:nth-child(1) {
+    background-color: #ff0000;
+}
+
+.case:nth-child(2) {
+    background-color: #00ff00;
+}
+
+.case:nth-child(3) {
+    background-color: #0000ff;
+
+}
